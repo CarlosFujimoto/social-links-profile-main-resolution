@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  margin: 0%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container_social_main {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container_social_margin {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 15px;
+}
+
+img#id_social_profile_pic {
+  border-radius: 45px;
+  margin-top: 50px;
+  height: 90px;
+  width: 90px;
+}
+
+.box_margin_title_info {
+  margin: 25px;
+}
+
+.box_margin_title_info h1 {
+  font-weight: 700;
+  color: #fff;
+  font-size: x-large;
+}
+
+.box_margin_title_info h2 {
+  font-weight: 600;
+  margin-top: 5px;
+  color: hsl(75, 94%, 57%);
+  font-size: small;
+}
+
+.box_social_info {
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+}
+
+.box_social_info p {
+  font-size: 14px;
+  font-weight: normal;
+  margin-inline: 50px;
+}
+
+.box_social_link {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.btn {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0px;
+  padding: 12px 35px;
+  transition-duration: 300ms;
+  width: 30vh;
+}
+
+.btn:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
